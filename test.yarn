@@ -1,0 +1,35 @@
+// set up .yarn in vs code https://docs.yarnspinner.dev/getting-started/editing-with-vs-code/writing-yarn-in-vs-code
+
+// run yarn code online https://try.yarnspinner.dev/
+
+// How to run a .yarn file on unity https://www.youtube.com/watch?v=hFfxpLMVJhE
+// Use photos of the library space as background? https://assetbank.mmu.ac.uk/assetbank-mmu/action/viewLogin
+
+// titles are important in yarn - they act like HTML anchors
+title: Start
+tags: 
+position: -155,-498
+---
+Librarian: Hello! Welcome to the library. You're on guard duty tonight
+-> On my own?
+    <<jump Worried>>
+-> Oh ok, what do I need to do?
+    <<jump Confident>>
+-> That's fine. Can I eat snacks?
+    We'd prefer if you didn't.
+===
+
+title: Worried
+tag:
+position: 156,-489
+---
+We trust you! Well if that's all your questions, goodbye
+===
+
+title: Confident
+tag:
+position: 147,-321
+---
+Just keep a look out on the CCTV. It should be quiet. Well if that's it, goodbye
+===
+
