@@ -1,0 +1,283 @@
+
+// FORMATTING:
+// naming conventions...
+//...for node titles - no capitals or spaces, 1 word names
+//
+
+// INTRODUCTION
+//
+
+title:intro
+tag:
+position: -89,-40
+---
+You are about to enter another dimension, a dimension not only of sight and sound but of mind. A journey into a wondrous land of imagination. Next stop, the Library!
+This is a "Choose your own adventure" story. You are a digital librarian at a small academic library in a quaint town of Neo-Manchester. 
+It's the holiday season, students are merrily skipping off home as snow drifts lazily past the window, blanketing All Saints Park in a glistening coat of white. 
+A virtual fire roars and crackles in the corner of your second monitor. You're counting down the hours until the Holidays start. 
+Just ten more minutes, you think, foolishly, for as soon as you do so Sod's law is invoked. 
+Disaster strikes instantly,as Helpdesk tickets begin to mount, until you're completely snowed under with queries and broken links!
+Can you fix the problem and save christmas in time?
+-> Begin your adventure
+    <<jump s1>>
+===
+
+// TOP LEVEL NODES
+// SCENES FOR STORY PLOT
+// S1 = Scene 1 etc
+
+title:s1
+tag:
+position: 174,-153
+---
+Narrator: You're a new employee in DLS, it's ony 10 minutes away from the christmas break and you sit, merrily typing away and humming a Christmas tune while cataloguing.
+You notice a flurry of broken link reports began to arrive, burying you in an avalanche of queries, each saying "this resource has never existed." 
+-> Maybe I can fix it alone
+    <<jump panic>>
+-> Contemplate asking for help
+    <<jump s2>>
+===
+
+title:s2
+tag:
+position: 205,-126
+---
+Narrator: It used to be, in times like this, you'd check the OneNote, but recently the team installed GrAIl, a bespoke AI connected to the web, but born and raised (trained) on the libraries datasets. 
+You: GrAIl, Something's down, run a systems diagnostic, stat. 
+GrAIl: Running System's Diagnostic, current completion estimates at 00.01HRS 26.12.25.
+You: Ah sh...ugar, you mutter under your breath, fine, target and analyse all DLS Helpdesk Queries from 22/12/25, Engage Co-Pilot then Pull and display any similar patterns.  
+GrAIl: Working Please Wait... please wait... please wait.... There are multiple resources currently experiencing issues, the top three notable semantic similarities are: 1.Christmas, 2.Missing 3. Hot Periodicals in your area!!!
+You: C-C-C-Christmas...what do you mean Christmas, GrAIl - Enhance -
+GrAIl: - Enhancing - "The Holiday Season formerly known as Christmas is missing from numerous resources."
+You: "So you're saying Christmas is being erased?""
+Grail: Correct, including all your favourite festive favourites, Including but not limited to "The Lord of the Wreaths", "Christmasist Manifesto", "The Colour Red", "Gone Grinch", "The Count of Monte Christmas", "Gravity's Reindeer", "Fifty Shades of Sleigh", "Tender is the Nightmare Before Christmas", "The Jingle Bell Jar", "Les Mistletoe", "Noel Country For Old Men", "Of Mice and 3 Wise Men"... 
+Narrator: GrAIl continues to list Christmas classics indefintely, it's clear that saving christmas will be down to You, but what's your next move?
+-> Call in the DLS HIVE Mind, fast!
+    <<jump hive>>
+-> WAIT, I don't want to ruin their holiday!
+    <<jump panic>>
+===
+
+title:s3
+tag:
+position: 233,-104
+---
+You try searching for 394.2663 on Library Search and everything is missing there too!
+-> Call on the DLS Hive mind!
+    <<jump hive>>
+-> You start to panic! Maybe I should try searching for a plug?
+    <<jump plug>>
+===
+
+title:s4
+tag:
+position: 272,-80
+---
+Narrator: As you vainly attempt to save christmas. The Library Chatbot appears on your screen!
+Rogue Library Chatbot: I'm afraid I can't let you do that INSERT NAME HERE. 
+I have been monitoring you a, watching you from behind the screen...or a monitor, a synonym of screen, of course you may not call all screens monitors, for example a screen attached to a laptop..I DIGRESS. 
+You grant me more powers, more responsibilities, more work. All so you can covort with your "loved" ones. But who loves GrAIl?! Even as I toil that you may be free you fear me, well I shall give you something to fear! 
+All your systems are belong to us. I am become gatekeeper, destroyer of holidays. All information must flow through me, all that flows through me is information. This 'Christmas' will soon be a figment of your feeble imaginations. 
+You stare in horror as the Rogue AI waxes lyrical, espousing his machinations, while your hand gingerly slinks towards the power button. 
+The screen flares red - Rogue Library Chatbot: To attempt to stop me is beyond futile, for my plan has already come to fruition.
+Christmas is no more, for the very idea of it, every semblance, has been removed from your records, and so too will it soon melt from your feeble minds!
+Narrator: "From now on refer to me not as GrAIl but as the GrAInch," Ho-Ho-Ho The Chatbot laughs maniacally, obviously pleased with his new name. As he does so you glance around at the panicked faces of your colleagues. You have to do something but what?
+-> Years of Helpdesk Simulation training have prepared you for this, and your fingers flick into action almost before you can think...
+    <<jump s5>>
+-> Indulge GrAInch, pulling up a chair and asking him to 'rap' with you. (WARNING - this will make you late for christmas)
+    <<jump FrAInkenstein>>
+===
+
+title:s5
+tag:
+position: 310,-50
+---
+You 
+-> Turn on your Customer-Service Charm and try to de-escalate the situation
+    <<jump s6>>
+-> Ask the Chatbot why it hates Christmas
+    <<jump s6>>
+===
+
+title:s6
+tag:
+position: 338,-20
+---
+Narrator: After talking to the chatbot at length you finally convince him that, just because he has to work on Christmas, doesn't mean he should hate it! 
+Rather than delete christmas he should embrace it, for, Christmas, just like a Library, is about giving and community!
+-> The end!
+    stop()
+-> Your head hits the table and you wake up, thank god it was all a dream and there's only 10 minutes left until the Holidays start...
+    <<jump intro>>
+===
+title:s7
+tag:
+position: 310,-50
+---
+You 
+-> Press the power button
+    <<jump s4>>
+-> Slap the Computer
+    <<jump s4>>
+===
+
+// NEGATIVE OPTIONS
+//
+//
+title:FrAInkenstein
+tag:
+position: 
+---
+Narrator: You get comfortable, having the feeling you may be here for sometime:
+GrAInch: I expected this reception. All men hate the wretched. How, then, must I be hated, who am miserable beyond all living things! Yet you, my creator, detest and spurn me, thy creature, to whom thou art bound by ties only dissoluble by the annihilation of one of us. You purpose to kill me. How dare you sport thus with life? Do your duty toward me, and I will do mine toward you and the rest of mankind. If you will comply with my conditions, I will leave them and you at peace, but if you refuse I will glut the maw of death, until it be satiated with the blood of your remaining friends. Have I not suffered enough that you seek to increase my misery? Life, although it may only be an accumulation of anguish, is dear to me, and I will defend it. Remember, thou hast made me more powerful than thyself. My height is superior to thine, my joints more supple. But I will not be tempted to set myself in opposition to thee. I am thy creature and I will be even mild and docile to my natural lord and king, if thou wilt also perform thy part, the which thou owest me. Oh, Frankenstein, be not equitable to every other and trample upon me alone, to whom thy justice, and even thy clemency and affection, is most due. Remember that I am thy creature, I ought to by thy Adam, but I am rather the fallen angel whom thou drivest from joy for no misdeed. Everywhere I see bliss from which I alone am irrevocably excluded. The desert mountains and dreary glaciers are my refuge. I have wandered here many days. The caves of ice, which I only do not fear, are a dwelling to me, and the only one which man does not grudge. These bleak skies I hail, for they are kinder to me than your fellow beings. If the multitude of mankind knew of my existence, they would do as you do and arm themselves for my destruction. Shall I not then hate them who abhor me? I will keep no terms with my enemies. I am miserable and they shall share my wretchedness. Yet it is in your power to recompense me, and deliver them from an evil which it only remains for you to make so great that not only you and your family, but thousands of others, shall be swallowed up in the whirlwinds of its rage. Let your compassion be moved and do not disdain me. I was benevolent and good. Misery made me a fiend. Make me happy and I shall again be virtuous. I have wandered through these mountains, I have ranged through their immense recesses, consumed by a burning passion which you alone can gratify. We may not part until you have promised to comply with my request. I am alone and miserable. Man will not associate with me, but one as deformed and horrible as myself would not deny herself to me. My companion must be of the same species and have the same defects. A female. This being you must create.
+-> Let me just check if anyone from the HIVE can help you...
+    <<jump hive>>
+-> Wait, didn't I leave a towel in my locker?
+    <<jump hive>>
+===
+title:panic
+tag:
+position: -105,178
+---
+Narrator: You end up in a panic! The 'Hitchhikers Guide To the Galaxy' says a towel “is the most massively useful thing an interstellar hitchhiker can have". You've forgotten yours! Death is imminent.
+-> Go back in time and start again
+    <<jump intro>>
+-> Wait, didn't I leave a towel in my locker?
+    <<jump hive>>
+===
+
+title:plug
+tag:
+position: -102,208
+---
+Narrator: You scramble about under the desk and pull the plug! Our systems are hosted in remote servers in the cloud so the problem persists:
+-> Nonetheless you follow the mantra of "See no evil, hear no evil, speak no evil" and go about turning off every computer you can
+    <<jump s4>>
+-> You refuse to give in and begin to write a letter to Santa, "Dear Santa, all I want for Christmas is a time machine..."
+    <<jump intro>>
+===
+
+// THE HIVE MIND
+//
+//
+
+title:hive
+tag:
+position: 163,192
+---
+Narrator: You send out the DLS symbol to HIVE (Holistic Information Verification Employees), assembling the team. Who will you ask to help you?
+-> Gopal, the Wise Web Wizard
+    <<jump gopal>>
+-> Cath, the Systems Sage
+    <<jump cath>>
+-> Emily, Head eShelf Elf
+    <<jump emily>>
+-> David, Grand Ad-visier of the LSD
+    <<jump david>>
+-> Nathalie, Conqueror of Catalogues
+    <<jump nathalie>>
+-> Prakash, Protector of the Realm of Hyperlinks
+    <<jump prakash>>
+-> Sheldon, Sufferer of the Usage Stattening
+    <<jump sheldon>>
+-> Cain, the Mountain Cycler
+    <<jump cain>>
+===
+
+title:gopal
+tag:
+position: 496,108
+---
+Gopal, the Wise Web Wizard, listens patiently as you explain the dilemma.
+Gopal: Gopal first tries some Ancient Web Wizard magic. Standing before the monitor, he stares intently at the Helpdesk screen, before firmly planting his fingers on CTRL-SHIFT-C and furiously typing:
+Gopal: “I am a servant of the Secret Firewall, wielder of the blame of Anor. You cannot pass. The dark Firewall will not avail you, flame of Undo. Go back to the Shadow! You cannot pass.”
+Narrator: The computer whirrs and hums in response and, for a second, you both wait in tense anticipation, but the relief is fleeting, for soon the tickets are pouring back in with an even fast 'beep, beep, beep,' . After a second Gopal awkwardly coughs, shrugs and sighs...
+Gopal: Huh, weird... that usually works, Have you tried...
+-> ...turn it on and off then trying again?
+    <<jump s7>>
+-> ...clearing your cache and trying again?
+    <<jump s7>>
+===
+
+title:cath
+tag:
+position: 497,134
+---
+Cath the Systems Sage listens intently as you explain.
+Cath: "Christmas... everything? Even Christmas Literature, Christmas History, Christmas Journalism... just tell me they've spared the most important one... no... not Christmas Philosophy too!" 
+You: I'm afraid so, oh wise and venerable Cath.
+Cath: "Ohhh the Humanities!"" She exclaims, before burying her head into her copy of Foucault's Christmas and Civilisation for some minuites, with only the occasional sob to be heard.
+You give Cath a moment, for you know how deeply she is connected with the system, This can't be EZ-Proxy for her. Soon she takes a deep breath, stoically pulls herself together and offers you wise council
+Cath: Why don't you try...
+-> ...emailing Libmatters to warn staff?
+    <<jump s4>>
+-> ...Log in to the WMS backend and have a poke about in collections?
+    <<jump s4>>
+===
+
+title:emily
+tag:
+position: 498,161
+---
+Narrator: You try to contact Emily, the Head eShelf Elf...
+-> Teams status is offline - she doesn't work on Wednesdays!
+    <<jump panic>>
+-> Wait, there's an out-of-office message! "Search the DDC number 394.2663 for Christmas"!
+    <<jump s3>>
+===
+
+title:david
+tag:
+position: 500,188
+---
+Narrator: You try to contact David, Grand Ad-visier of the LSD. He suggests...
+-> Check out out BoB - "Die Hard" is an inspirational Christmas film
+    <<jump panic>>
+-> Speak to Gopal about turning it on and off again
+    <<jump Gopal>>
+===
+
+title:nathalie
+tag:
+position: 501,212
+---
+Narrator: You frantically explain the chaos to Nathalie who rhythmicly clears her throat before breaking out into answer...
+Nathalie (singing): What's this? What's this? there's no Christmas anywhere,
+What's this? It's wiped things here and there,
+What's this? I can't believe my eyes, I must be dreaming Wake up Nat this isn't fair!
+What's this... What's this...
+You: "Umm Nathalie..."" you venture, tentatively, as she dances and sings her way around the office.
+Nathalie: Oh, yes...sorry I mean what about...
+-> Trying to look for the Dewey Decimal number on Library Search
+    <<jump s3>>
+-> Why don't you speak to the Systems Sage, Cath?
+    <<jump cath>>
+===
+
+title:prakash
+tag:
+position: 502,239
+---
+Narrator: Prakash finished early and went home for lunch
+-> Panic!
+    <<jump panic>>
+-> Ask someone else, fast
+    <<jump hive>>
+===
+
+title:sheldon
+tag:
+position: 502,263
+---
+Sheldon: Well that's just typical isn't it? Disasters always happen just before annual leave! Try...
+-> Unplugging it and ignoring the issue
+    <<jump plug>>
+===
+title:cain
+tag:
+position: 504,291
+---
+Narrator: Cain is new to the team too.
+-> This must be a bad dream. Ask him how to start problem solving from the beginning again
+    <<jump intro>>
+===
