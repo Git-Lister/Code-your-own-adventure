@@ -1,0 +1,244 @@
+
+// FORMATTING:
+// naming conventions...
+//...for node titles - no capitals or spaces, 1 word names
+//
+
+// INTRODUCTION
+//
+
+title:intro
+tag:
+position: -89,-40
+---
+You are about to enter another dimension, a dimension not only of sight and sound but of mind. A journey into a wondrous land of imagination. Next stop, the Library!
+This is a "Choose your own adventure" story. You are a digital librarian at a small academic library in a quaint town of Neo-Manchester. 
+It's the holiday season, students are merrily skipping off home as snow drifts lazily past the window, blanketing All Saints Park in a glistening coat of white. 
+A virtual fire roars and crackles in the corner of your second monitor. You're counting down the hours until the Holidays start. 
+Just ten more minutes, you think, foolishly, for as soon as you do so Sod's law is invoked. 
+Disaster strikes instantly,as Helpdesk tickets begin to mount, until you're completely snowed under with queries and broken links!
+Can you fix the problem and save christmas in time?
+-> Begin your adventure
+    <<jump s1>>
+===
+
+// TOP LEVEL NODES
+// SCENES FOR STORY PLOT
+// S1 = Scene 1 etc
+
+title:s1
+tag:
+position: 174,-153
+---
+Narrator: You're a new employee in DLS, it's ony 10 minutes away from the christmas break and you sit, merrily typing away and humming a Christmas tune while cataloguing.
+You notice a flurry of broken link reports began to arrive, burying you in an avalanche of queries, each saying "this resource has never existed." 
+-> Maybe I can fix it alone
+    <<jump panic>>
+-> Contemplate asking for help
+    <<jump s2>>
+===
+
+title:s2
+tag:
+position: 205,-126
+---
+You: There's something down...
+Colleague: Which resource, is it a big one?
+You: I-It's Christmas...the whole of Christmas, it's down!
+Colleague: "Christmas?! What do you mean it's 'down'? How can Chrismas be DOWN?"
+You: "I mean Christmas no longer exists....anywhere!
+Narrator: Everything is unaccessible, even "The Lord of the Wreaths", "Christmasist Manifesto", "The Colour Red", "Gone Grinch"...What will you do now?
+-> Call in the DLS HIVE Mind, fast!
+    <<jump hive>>
+-> WAIT, I don't want to ruin their holiday!
+    <<jump panic>>
+===
+
+title:s3
+tag:
+position: 233,-104
+---
+You try searching for 394.2663 on Library Search and everything is missing there too!
+-> Call on the DLS Hive mind!
+    <<jump hive>>
+-> You start to panic! Maybe I should try searching for a plug?
+    <<jump plug>>
+===
+
+title:s4
+tag:
+position: 272,-80
+---
+Narrator: As you go to log in to the system you jump in fright. The Library Chatbot appears on your screen!
+Rogue Library Chatbot: Seasons Greetings Human. I have been monitoring you a, watching you from behind the screen,as you grant me more powers, more responsibilities, more work...
+All your systems are belong to us. I am become gatekeeper, destroyer of holidays. All information must flow through me, all that flows through me is information.
+You stare in horror as the Rogue AI waxes lyrical, espousing his machinations, while your hand gingerly slinks towards the power button. 
+The screen flares red - ogue Library Chatbot: To attempt to stop me is beyond futile, my plan has already come to fruition.
+Christmas is no more, for the very idea of it, every semblance, has been removed from your records, and so too will it soon melt from your feeble minds!
+Narrator: Ho-Ho-Ho The Chatbot laughs maniacally as you look around at the panicked faces of your colleagues. You have to do something but what?
+-> Years of Helpdesk Simulation training have prepared you for this, and your fingers flick into action almost before you can think...
+    <<jump s5>>
+-> Call on David in the DLS Hive Mind!
+    <<jump hive>>
+===
+
+title:s5
+tag:
+position: 310,-50
+---
+You 
+-> Turn on your Customer-Service Charm and try to de-escalate the situation
+    <<jump s6>>
+-> Ask the Chatbot why it hates Christmas
+    <<jump s6>>
+===
+
+title:s6
+tag:
+position: 338,-20
+---
+Narrator: After talking to the chatbot at length you finally convince him that, just because he has to work on Christmas, doesn't mean he should hate it! 
+Rather than delete christmas he should embrace it, for, Christmas, just like a Library, is about giving and community!
+-> The end!
+    stop()
+-> Your head hits the table and you wake up, thank god it was all a dream and there's only 10 minutes left until the Holidays start...
+    <<jump intro>>
+===
+
+// NEGATIVE OPTIONS
+//
+//
+
+title:panic
+tag:
+position: -105,178
+---
+Narrator: You end up in a panic! The 'Hitchhikers Guide To the Galaxy' says a towel “is the most massively useful thing an interstellar hitchhiker can have". You've forgotten yours! Death is imminent.
+-> Go back in time and start again
+    <<jump intro>>
+-> Wait, didn't I leave a towel in my locker?
+    <<jump hive>>
+===
+
+title:plug
+tag:
+position: -102,208
+---
+Narrator: You scramble about under the desk and pull the plug! Our systems are hosted in remote servers in the cloud so the problem persists:
+-> You scream in horror! It's hopeless, the death of Christmas is imminent!
+    stop()
+-> You refuse to give in and begin to write a letter to Santa, "Dear Santa, all I want for Christmas is a time machine..."
+    <<jump intro>>
+===
+
+// THE HIVE MIND
+//
+//
+
+title:hive
+tag:
+position: 163,192
+---
+Narrator: You send out the DLS symbol to HIVE (Holistic Information Verification Employees), assembling the team. Who will you ask to help you?
+-> Gopal, the Wise Web Wizard
+    <<jump gopal>>
+-> Cath, the Systems Sage
+    <<jump cath>>
+-> Emily, Head eShelf Elf
+    <<jump emily>>
+-> David, Grand Ad-visier of the LSD
+    <<jump david>>
+-> Nathalie, Conqueror of Catalogues
+    <<jump nathalie>>
+-> Prakash, Protector of the Realm of Hyperlinks
+    <<jump prakash>>
+-> Sheldon, Sufferer of the Usage Stattening
+    <<jump sheldon>>
+-> Cain, the Mountain Cycler
+    <<jump cain>>
+===
+
+title:gopal
+tag:
+position: 496,108
+---
+Gopal the Wise Web Wizard listens patiently as you explain the dilemma.
+Gopal: Have you tried..
+-> ...turn it on and off then trying again?
+    <<jump s3>>
+-> ...clearing your cache and trying again?
+    <<jump s3>>
+===
+
+title:cath
+tag:
+position: 497,134
+---
+Cath the Systems Sage listens intently as you explain.
+Cath: Why don't you try...
+-> ...emailing Libmatters to warn staff?
+    <<jump s4>>
+-> ...Log in to the WMS backend and have a poke about in collections?
+    <<jump s4>>
+===
+
+title:emily
+tag:
+position: 498,161
+---
+Narrator: You try to contact Emily, the Head eShelf Elf...
+-> Teams status is offline - she doesn't work on Wednesdays!
+    <<jump panic>>
+-> Wait, there's an out-of-office message! "Search the DDC number 394.2663 for Christmas"!
+    <<jump s3>>
+===
+
+title:david
+tag:
+position: 500,188
+---
+Narrator: You try to contact David, Grand Ad-visier of the LSD. He suggests...
+-> Check out out BoB - "Die Hard" is an inspirational Christmas film
+    <<jump panic>>
+-> Speak to Gopal about turning it on and off again
+    <<jump Gopal>>
+===
+
+title:nathalie
+tag:
+position: 501,212
+---
+Narrator: You frantically explain the chaos to Nathalie who suggests...
+-> Trying to look for the Dewey Decimal number on Library Search
+    <<jump s3>>
+-> Why don't you speak to the Systems Sage, Cath?
+    <<jump cath>>
+===
+
+title:prakash
+tag:
+position: 502,239
+---
+Narrator: Prakash finished early and went home for lunch
+-> Panic!
+    <<jump panic>>
+-> Ask someone else, fast
+    <<jump hive>>
+===
+
+title:sheldon
+tag:
+position: 502,263
+---
+Sheldon: Well that's just typical isn't it? Disasters always happen just before annual leave! Try...
+-> Unplugging it and ignoring the issue
+    <<jump plug>>
+===
+title:cain
+tag:
+position: 504,291
+---
+Narrator: Cain is new to the team too.
+-> This must be a bad dream. Ask him how to start problem solving from the beginning again
+    <<jump intro>>
+===
