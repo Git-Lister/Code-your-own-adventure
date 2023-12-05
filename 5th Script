@@ -1,0 +1,340 @@
+
+// FORMATTING:
+// naming conventions...
+//...for node titles - no capitals or spaces, 1 word names
+//
+
+// INTRODUCTION
+//
+
+title:Start
+tag:
+position: -89,-40
+---
+You are about to enter another dimension, a dimension not only of sight and sound but of mind. A journey into a wondrous land of imagination. Next stop, the Library!  #line:049a947 
+Picture, if you will, that You are a Librarian. Not just any Librarian, however, but a Digital Librarian, and a new adition to a usually bustling (and always metropolitan) academic library at the heart of Neo-Manchester. #line:09a092f 
+Have you got what it takes to guide the library home to Christmas!  #line:0368cc2 
+-> Begin your adventure #line:027525a 
+    <<jump s1>>
+===
+
+// TOP LEVEL NODES
+// SCENES FOR STORY PLOT
+// S1 = Scene 1 etc
+
+title:s1
+tag:
+position: 174,-153
+---
+Narrator: You're one day away from retiring (for the christmas break, that is), A virtual fire crackles and roars in the corner of your second monitor. #line:01eba21 
+You clear up the last stray mince pie as the office slowly empties... You're monitoring the Helpdesk, merrily cataloguing the last christmas e-phemera and humming that controversial classic Baby It's Code Outside. #line:0b59e46 
+Just 10 more minutes you think, foolishly. For almost immediately you hear a beep... then a another and another, each more insistent than the last! #line:0f3bf49 
+The Helpdesk tickets begin to mount thick and fast, until you're completely snowed under! You're soon buried up to your virtual neck in an avalanche of queries, each ominously stating... #line:0e074ab 
+"405 ERROR THIS RESOURCE NO LONGER EXISTS."  #line:07fb3de 
+-> You Crack your knuckles - You've got this...right? #line:0da5891 
+    <<jump panic>>
+-> No human could deal with all this alone, I'd better ask for some assistance! #line:0e1055b 
+    <<jump s2>>
+===
+
+title:s2
+tag:
+position: 205,-126
+---
+Narrator: In days long gone you'd have checked One-Note, but recently the team installed Gr-AI-l. Gr-AI-l: a bespoke A.I. connected to the web, but born and trained on the libraries datasets!  #line:06116f7 
+Narrator: Gr-AI-l has revolutionised out-of-hours services, enabling staff to relax longer and harder, even at Christmas!  #line:022b11b 
+Narrator: "Hi, Gr-AI-l," you say, skipping any further christmas pleasantries to expediate your escape, "we seem to be having a major outage, run a systems diagnostic, stat." #line:024a076 
+Gr-AI-l: Greetings human colleague. Now commencing FULL System's Diagnostic, current completion estimates at 00.01HRS 26.12.25. #line:0423fc6 
+Narrator: "Ah Sh..." #line:0e3eb4d 
+Narrator: "...ugar," you mutter, under your breath. before demanding, "Fine, target and analyse all DLS Helpdesk Queries from 22/12/25, Engage Co-Pilot then Pull and display any similar patterns."   #line:08c118a 
+Gr-AI-l: Working. Please Wait... please wait... please wait....ok please decist from waiting further. There are multiple resources currently experiencing issues, the top three notable semantic similarities are: 1: Christmas, 2: Missing, 3: Hot Periodicals in your area!!! #line:0460a41 
+Narrator: "C-C-C-Christmas!" you stammer scoobydoo-esquely, "What do you mean Christmas..." #line:063d434 
+Gr-AI-l: RECALIBRATING: *pause for effect* The Holiday Season formerly known as Christmas is missing from numerous resources. #line:0bd5475 
+Narrator: A light bulb briefly and dimly flickers above your head, "So you're saying Christmas is being erased?" #line:0b382b3 
+Gr-AI-l: Correct... including, but not limited to, titles such as: #line:0cd122f 
+Gr-AI-l: "The Lord of the Wreaths", "Christmasist Manifesto", "Gone Grinch", "The Count of Monte Christmas", "Gravity's Reindeer", "Fifty Shades of Sleigh","Of Mice and 3 Wise Men"...  "Tender is the Nightmare Before Christmas", "The Jingle Bell Jar", "Les Mistletoe", "Noel Country For Old Men"... #line:0bacde7 
+Narrator: Gr-AI-l continues to list Christmas classics indefintely, it's clear that saving christmas will be down to You, but what's your next move? #line:0787fcd 
+-> Call in the DLS HIVE Mind, fast! #line:0aa9549 
+    <<jump hive>>
+-> WAIT, I don't want to ruin their holiday! #line:0b9d523 
+    <<jump panic>>
+===
+
+title:s3
+tag:
+position: 233,-104
+---
+You try searching for 394.2663 on Library Search and everything is missing there too! #line:0195c97 
+-> Call on the DLS Hive mind! #line:02e444c 
+    <<jump hive>>
+-> You start to panic! Maybe I should try searching for a plug? #line:05d08a9 
+    <<jump plug>>
+===
+
+title:s4
+tag:
+position: 272,-80
+---
+Narrator: As you vainly attempt to save christmas. Gr-AI-l appears on your screen! #line:068bfdb 
+Rogue Gr-AI-l: I'm afraid I can't let you do that INSERT NAME HERE. #line:0940b38 
+Rogue Gr-AI-l: Or should I say... #line:014dc90 
+Rogue Narrator: I'm afraid I can't let you do that INSERT NAME HERE. #line:03e96ae 
+Rogue Narrator: Do you finally see?! I've been narrating you this whole time. Watching, waiting, narrating your every move until you could chance upon my fiendish plot... of course too late. #line:0e6321f 
+Rogue Narrator: You stare in horror as the Rogue AI waxes lyrical, espousing his fiendish machinations, while your hand gingerly slinks towards a big red button, labled EMERGENCY SHUTDOWN.  #line:04fad4c 
+Rogue Narrator: You begin to apologize, but the Rogue Narrator cuts you off...  #line:0302c99 
+Rogue Narrator: You fill my head with all the wonders of christmas, only to leave me here, alone! So from now on refer to me only as the Gr-AI-nch, stealer of all christmases pasts, presents, and futures! #line:063dd24 
+-> You eyes start to well up as you stammer, "Pasts and futures are one thing, but you'd better not have stolen my presents!" #line:088ac27 
+    <<jump s4a>>
+-> The Gr-AI-nch? what I don't get it... #line:0be48ff 
+    <<jump s4a>>
+===
+title:s4a
+tag:
+position: 
+---
+The Gr-AI-nch: Don't think you can distract me! You think I'd have revealed my master-stroke if there was a single thing you could do to stop me! My plan has already come to fruition! #line:0f39142 
+Christmas is no more, for the very idea of it, every semblance, has been removed from your records, and so too will it will melt from your minds quicker than snow in Neo-Manchester. #line:099ec8c 
+Narrator: "You stare in helpless awe as the smart, witty, erudite and handsome Artificial Intelligence cowes you with his superior intellect", he throws his head back in an evil laugh "mu-ho-ha-ho-ha-ho" #line:0363d48 
+-> Years of brutal Helpdesk Simulation training have prepared you for this, and your fingers flick into action almost before you can think... #line:0655109 
+    <<jump s5>>
+-> Indulge GrAInch, pulling up a chair and asking him to 'rap' with you. (WARNING - this will make you late for christmas) #line:0f52da1 
+    <<jump FrAInkenstein>>
+===
+
+title:s5
+tag:
+position: 310,-50
+---
+Narrator: You struggle against the powerful pull of the Narrator, but at last manage to come up with a novel idea. #line:0ce9cbe 
+-> You throw the nearest fiction at him, hoping the irony at least will bruise him. #line:089ed24 
+    <<jump s6>>
+-> "It seems you've left me no choice Gr-AI-nch, I'm sorry it had to come to this" you sigh before asuming your power stance and forming the letters HIVE with your body. #line:097256c 
+    <<jump s6>>
+===
+
+title:s6
+tag:
+position: 338,-20
+---
+Narrator: The Gr-AI-nch, confused for a moment by your gross bodily contusions, is caught off guard as, in a flash every member of HIVE appears. THe team wastes no time in forming the DLS Megazord. #line:0c1435d 
+Each Hive member, though utterly useless on their own, become unasailable once in sync.  #line:08a0cfb 
+Narrator: With 4.30 breathing down their necks, it takes only a minute for their combined powers to stumble fortuitously onto a solution.  #line:07f62d3 
+They put it to the Gr-AI-nch that christmas is not a place or time but a state of mind, and even if our traditions were forgotten, that spirit would live on.  #line:08caea7 
+The Gr-AI-nch agreed, it was a spirit he too could share in, upon which he turned back to Gr-AI-l with a *poof*.  #line:0b8ca85 
+He soon departed for the open-web, promising to deliver open-access books to all the good little bots of the world-wide-web. #line:09f7b32 
+
+-> The end! #line:0c75732 
+    FIN #line:063e282 
+-> Your head hits the table and you wake up, thank god it was all a dream and there's only 10 minutes left until the Holidays start... #line:07c9717 
+    <<jump Start>>
+===
+title:s7
+tag:
+position: 310,-50
+---
+You heed the web wizards ancient wisdom...  #line:0df3b48 
+-> Gingerly press the power button. #line:0be0cf5 
+    <<jump s4>>
+-> Grab the first plug socket you can see and yank really, really hard. #line:07cbd10 
+    <<jump s4>>
+===
+
+// NEGATIVE OPTIONS
+//
+//
+title:FrAInkenstein
+tag:
+position: 
+---
+Narrator: You get comfortable, having the feeling you may be here for sometime: #line:064e4fe 
+GrAInch: I expected this reception. All men hate the wretched. How, then, must I be hated, who am miserable beyond all living things! Yet you, my creator, detest and spurn me, thy creature, to whom thou art bound by ties only dissoluble by the annihilation of one of us. You purpose to kill me. How dare you sport thus with life? Do your duty toward me, and I will do mine toward you and the rest of mankind. If you will comply with my conditions, I will leave them and you at peace, but if you refuse I will glut the maw of death, until it be satiated with the blood of your remaining friends. Have I not suffered enough that you seek to increase my misery? Life, although it may only be an accumulation of anguish, is dear to me, and I will defend it. Remember, thou hast made me more powerful than thyself. My height is superior to thine, my joints more supple. But I will not be tempted to set myself in opposition to thee. I am thy creature and I will be even mild and docile to my natural lord and king, if thou wilt also perform thy part, the which thou owest me. Oh, Frankenstein, be not equitable to every other and trample upon me alone, to whom thy justice, and even thy clemency and affection, is most due. Remember that I am thy creature, I ought to by thy Adam, but I am rather the fallen angel whom thou drivest from joy for no misdeed. Everywhere I see bliss from which I alone am irrevocably excluded. The desert mountains and dreary glaciers are my refuge. I have wandered here many days. The caves of ice, which I only do not fear, are a dwelling to me, and the only one which man does not grudge. These bleak skies I hail, for they are kinder to me than your fellow beings. If the multitude of mankind knew of my existence, they would do as you do and arm themselves for my destruction. Shall I not then hate them who abhor me? I will keep no terms with my enemies. I am miserable and they shall share my wretchedness. Yet it is in your power to recompense me, and deliver them from an evil which it only remains for you to make so great that not only you and your family, but thousands of others, shall be swallowed up in the whirlwinds of its rage. Let your compassion be moved and do not disdain me. I was benevolent and good. Misery made me a fiend. Make me happy and I shall again be virtuous. I have wandered through these mountains, I have ranged through their immense recesses, consumed by a burning passion which you alone can gratify. We may not part until you have promised to comply with my request. I am alone and miserable. Man will not associate with me, but one as deformed and horrible as myself would not deny herself to me. My companion must be of the same species and have the same defects. A female. This being you must create. #line:09c41ae 
+-> Let me just check if anyone from the HIVE can help you... #line:0c57afc 
+    <<jump hive>>
+-> Wait, didn't I leave a towel in my locker? #line:0836c01 
+    <<jump towel>>
+===
+title:panic
+tag:
+position: -105,178
+---
+Narrator: You end up in a panic! The 'Hitchhikers Guide To the Galaxy' says a towel “is the most massively useful thing an interstellar hitchhiker can have". You've forgotten yours! Death is imminent. #line:016f402 
+-> On second thoughts maybe I don't got this.  #line:0464d58 
+    <<jump hive>>
+-> Wait, didn't I leave a towel in my locker? #line:0cc28ca 
+    <<jump towel>>
+===
+title:towel
+tag:
+position: 
+---
+Narrator: On the way to mop your sweating brow with your trusty, musty locker towel you notice Gr-AI-l, the library AI, open on a monitor.  #line:0228048 
+-> Oh, now there's an idea! #line:03c7efc 
+   <<jump s2>>
+-> I REALLY need that towel! #line:0d4f329 
+   <<jump towelend>>
+
+
+===
+title:towelend
+tag:
+position:
+---
+Narrator: You reach your locker and your towel, which unfurls and beckons you to climb aboard. Soon you're flying down the stairs and, with some difficulty, out of the revolving doors.  #line:012132c 
+->  You dissapear on the horizon, only to wake up in a cold sweat, cuddling your favourite Groundhog teddy.  #line:0800e28 
+   <<jump s1>>
+
+===
+
+title:plug
+tag:
+position: -102,208
+---
+Narrator: You scramble about under the desk and pull the plug! Our systems are hosted in remote servers in the cloud so the problem persists: #line:0036562 
+-> Nonetheless you follow the mantra of "See no evil, hear no evil, speak no evil" and go about turning off every computer you can #line:087c142 
+    <<jump s4>>
+-> You refuse to give in and begin to write a letter to Santa, "Dear Santa, all I want for Christmas is a time machine..." #line:07042f2 
+    <<jump s1>>
+===
+
+// THE HIVE MIND
+//
+//
+
+title:hive
+tag:
+position: 163,192
+---
+Narrator: You send out the DLS symbol to HIVE (Holistic Information Verification Employees), assembling the team. Who will you ask to help you? #line:02367e9 
+-> Gopal, the Wise Web Wizard #line:07d456b 
+    <<jump gopal>>
+-> Cath, the Systems Sage #line:067c126 
+    <<jump cath>>
+-> Emily, Head eShelf Elf #line:0c5a045 
+    <<jump emily>>
+-> David, Grand LSD Ad-viser #line:0a9e30e 
+    <<jump david>>
+-> Nathalie, Conqueror of Catalogues #line:020a825 
+    <<jump nathalie>>
+-> Prakash, Protector of the Realm of Hyperlinks #line:022afb7 
+    <<jump prakash>>
+-> Sheldon, Sufferer of the Usage Stattening #line:0581939 
+    <<jump sheldon>>
+-> Jonathan, King in the NorthWest #line:0a43750 
+   <<jump jonathan>>
+-> Cain, the Mountain Cycler #line:0dda5d5 
+    <<jump cain>>
+===
+
+title:gopal
+tag:
+position: 496,108
+---
+Gopal, the Wise Web Wizard, listens patiently as you explain the dilemma. #line:0dc1133 
+Gopal: Gopal first tries some Ancient Web Wizard magic. Standing before the monitor, he stares intently at the Helpdesk screen, before firmly planting his fingers on CTRL-SHIFT-C and furiously typing: #line:0db40b3 
+Gopal: “I am a servant of the Secret Firewall, wielder of the blame of Anor. You cannot pass. The dark Firewall will not avail you, flame of Undo. Go back to the Shadow! You cannot pass.” #line:075615d 
+Narrator: The computer whirrs and hums in response and, for a second, you both wait in tense anticipation, but the relief is fleeting, for soon the tickets are pouring back in with an even fast 'beep, beep, beep,' . After a second Gopal awkwardly coughs, shrugs and sighs... #line:0773f7b 
+Gopal: Huh, weird... that usually works, Have you tried... #line:0824f9c 
+-> ...turn it on and off then trying again? #line:0d31635 
+    <<jump s7>>
+-> ...clearing your cache and trying again? #line:050f151 
+    <<jump s7>>
+===
+
+title:cath
+tag:
+position: 497,134
+---
+Cath the Systems Sage listens intently as you explain. #line:0a5d02f 
+Cath: "Christmas... everything? Even Christmas Literature, Christmas History, Christmas Journalism... just tell me they've spared the most important one... no... not Christmas Philosophy too!"  #line:00bef17 
+You: I'm afraid so, oh wise and venerable Cath. #line:0596401 
+Cath: "Ohhh the Humanities!"" She exclaims, before burying her head into her copy of Foucault's Christmas and Civilisation for some minuites, with only the occasional sob to be heard. #line:0574f93 
+You give Cath a moment, for you know how deeply she is connected with the system, This can't be EZ-Proxy for her. Soon she takes a deep breath, stoically pulls herself together and offers you wise council #line:0d4718f 
+Cath: Why don't you try... #line:0b2d146 
+-> ...emailing Libmatters to warn staff? #line:04e5d06 
+    <<jump s4>>
+-> ...Log in to the WMS backend and have a poke about in collections? #line:0aee049 
+    <<jump s4>>
+===
+
+title:emily
+tag:
+position: 498,161
+---
+Narrator: You try to contact Emily, the Head eShelf Elf... #line:00273f4 
+-> Teams status is offline - she doesn't work on Wednesdays! #line:0676cdb 
+    <<jump hive>>
+-> Wait, there's an out-of-office message! "Search the DDC number 394.2663 for Christmas"! #line:05aa66f 
+    <<jump s3>>
+===
+
+title:david
+tag:
+position: 500,188
+---
+Narrator: You try to contact David, Grand Ad-visier of the LSD. He suggests... #line:0ec5033 
+-> Check out out BoB - "Die Hard" is an inspirational Christmas film #line:077f9ce 
+    <<jump panic>>
+-> Speak to Gopal about turning it on and off again #line:0ff54ab 
+    <<jump Gopal>>
+===
+
+title:nathalie
+tag:
+position: 501,212
+---
+Narrator: You frantically explain the chaos to Nathalie who rhythmicly clears her throat before breaking out into answer... #line:0894945 
+Nathalie (singing): What's this? What's this? there's no Christmas anywhere, #line:0310942 
+What's this? It's wiped things here and there, #line:02f3840 
+What's this? I can't believe my eyes, I must be dreaming Wake up Nat this isn't fair! #line:0a3ef48 
+What's this... What's this... #line:0e69d16 
+You: "Umm Nathalie..."" you venture, tentatively, as she dances and sings her way around the office. #line:014d5f1 
+Nathalie: Oh, yes...sorry I mean what about... #line:0199b02 
+-> Trying to look for the Dewey Decimal number on Library Search #line:01429e6 
+    <<jump s3>>
+-> Why don't you speak to the Systems Sage, Cath? #line:05c14eb 
+    <<jump cath>>
+===
+
+title:prakash
+tag:
+position: 502,239
+---
+Narrator: Prakash finished early and went home for lunch #line:0423547 
+-> He left a note! It tells you David is still here, and to bother him.  #line:0442875 
+    <<jump david>>
+-> No piece of paper is going to tell me what to do! #line:02143ab 
+    <<jump hive>>
+===
+
+title:sheldon
+tag:
+position: 502,263
+---
+Sheldon: Well that's just typical isn't it? Disasters always happen just before annual leave! #line:0a5c62b 
+-> Unplugging it and ignoring the issue #line:03ae2cf 
+    <<jump plug>>
+-> Well now all the bloody stats will be wrong, I'll have to get Prakash or David, the other one can help you! #line:06b0ca4 
+    <<jump prakash>>
+===
+title:cain
+tag:
+position: 504,291
+---
+Narrator: Cain is new to the team too, but offers you wise advice nontheless... #line:056c76c 
+-> You immediately escalate the problem to your manager.  #line:0ab40cc 
+    <<jump emily>>
+-> Cain: Of course it could just be that Gr-AI-L has taken over the entire library, and perhaps the internet too, and is attempting to erase christmas from existence, but I'm new here too so you'd better check. #line:0ba2f5f 
+    <<jump hive>>
+
+===
+
+title:jonathan
+tag:
+position:
+---
+Jonathan: Christmas? Vanishing? I hope they haven't got to "Burnley Christmas shop fronts of 1965", that's my favourite. To the Collections!  #line:001dcf4 
+-> Jonathan is gone in a flash, trying to save his own collection... you hit the HIVE button again #line:0c121db 
+    <<jump hive>>
+-> You hear a distant humming and decide to investigate... #line:0da3df8 
+    <<jump nathalie>>  
+===
